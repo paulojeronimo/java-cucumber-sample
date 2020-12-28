@@ -1,6 +1,7 @@
-Feature: Hello World
+# language: pt
+Funcionalidade: Diga Olá
 
-  Scenario: Say hello
-    Given I have a hello app with "Hello"
-    When I ask it to say hi
-    Then it should answer with "Hello World"
+  Cenário: Dizer "Olá Fulano!"
+    Dado que eu tenho uma app que recebe "Paulo"
+    Quando eu pedir que ela diga olá
+    Então ela deveria responder "Olá Paulo!"
